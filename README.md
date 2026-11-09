@@ -43,15 +43,19 @@ The HIGGS dataset contains simulated Monte Carlo events. It is not a collection 
 
 ### 🏆 Model Performance
 
-| Model | Test Accuracy |
-|---|---:|
-| Logistic Regression | 64.51% |
-| Decision Tree | 67.96% |
-| Random Forest | **71.49%** |
+The three classification models were evaluated using test accuracy and ROC-AUC.
 
-🥇 Random Forest achieved the highest test accuracy among the three evaluated models.
+| Model | Test Accuracy | ROC-AUC |
+|---|---:|---:|
+| Logistic Regression | 64.51% | 0.687549 |
+| Decision Tree | 67.96% | 0.741849 |
+| Random Forest | **71.49%** | **0.793519** |
 
-*ROC-AUC values and additional evaluation results will be included after verification of the measured Day 8 outputs.*
+🥇 **Random Forest achieved the best performance**, with 71.49% test accuracy and a ROC-AUC score of 0.793519.
+
+Accuracy measures the proportion of correctly classified test events at the selected classification threshold, whereas ROC-AUC evaluates the model's ability to distinguish signal from background across different thresholds.
+
+These results indicate that Random Forest provided the strongest classification performance among the three evaluated algorithms on the selected test subset.
 
 ### 🔎 Feature Importance Analysis
 
