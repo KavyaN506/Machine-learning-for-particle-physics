@@ -97,7 +97,10 @@ machine-learning-for-particle-physics/
     ├── logistic_regression_coefficients.csv
     ├── permutation_feature_importance.csv
     └── 📂 plots/
-```
+        ├── model_comparison.png
+        ├── roc_curves.png
+        ├── confusion_matrices.png
+        └── feature_importance.png
 
 ### 🚀 How to Run the Project
 
