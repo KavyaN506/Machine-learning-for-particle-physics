@@ -126,6 +126,15 @@ pip install -r requirements.txt
 
 The notebook downloads the dataset from the UCI repository. An internet connection is required for the initial data download.
 
+## 🚀 Live Demo
+
+**Try the deployed application here:**
+
+Higgs Signal vs Background Classifier
+https://higgs-particle-classifier.streamlit.app/
+
+Explore model performance, feature importance, and interactive predictions using the HIGGS simulated dataset.
+
 ### ⚠️ Limitations
 
 - The analysis uses only the first 100,000 rows of the approximately 11-million-event dataset.
